@@ -33,12 +33,12 @@ module.exports = {
   },
 
   sendInfo: async function (message) {
-    const botName = " 🕸️ 𝐒𝐩𝐢𝐝𝐞𝐘🕷️ ";
-    const botPrefix = "𝐄𝐫𝐞𝐧 ";
-    const authorName = "𝐑𝐚𝐚𝐝";
-    const authorFB = "𝐑𝐚 𝐀𝐚𝐝";
-    const authorInsta = "raadx102";
-    const status = " 𝗦𝗶𝗻𝗴𝗹𝗲";
+    const botName = " KAKAROT ";
+    const botPrefix = "ariyan ";
+    const authorName = "ARIYAN";
+    const authorFB = "DAMIAN DEDMONY";
+    const authorInsta = "NAI";
+    const status = " HALF MARRIED";
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/assets/Ayan.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
