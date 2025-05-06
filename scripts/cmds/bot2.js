@@ -1,4 +1,4 @@
-const axios = require("axios");
+ const axios = require("axios");
 
 const prefixes = ["bby", "janu", "babe", "bot", "sona", "bbu", "jaan"];
 
@@ -140,4 +140,11 @@ module.exports = {
     }
 
     // Handling reaction triggers based on certain text patterns
-    const reactions = ["haha", "😹
+    const reactions = ["haha", "😹", "lol", "pro", "gpt", "😹", "hehe"];
+    if (reactions.some(reaction => messageBody.includes(reaction))) {
+      setTimeout(() => {
+        api.setMessageReaction("😹", event.messageID, () => {}, true);
+      }, 500);
+    }
+  }
+};
